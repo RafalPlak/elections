@@ -11,6 +11,7 @@ spring:
         jdbc.time_zone: UTC
   flyway:
     enabled: true
+    baseline-on-migrate: true
   cache:
     type: caffeine
   application:
